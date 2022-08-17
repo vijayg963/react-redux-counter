@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 4rem;
+}
+.container {
+  width: 500px;
+  margin: 2rem auto;
+  text-align: center;
+  padding: 3rem;
+  border-radius: 5px;
+  background-color: rgb(209, 239, 239);
+}
+.btn {
+  color: black;
+  background-color: rgb(246, 190, 79);
+  padding: 0.7rem 1rem;
+  margin: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-box {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-box button {
+  padding: 1rem 2rem;
+  background-color: rgb(36, 37, 38);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.active {
+  background: rgb(255, 127, 80);
+  color: black;
+}
